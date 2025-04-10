@@ -28,7 +28,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-900">
+    <section className="flex justify-center items-center  bg-gray-900">
       <motion.div
         className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md"
         initial={{ opacity: 0, y: 50 }}

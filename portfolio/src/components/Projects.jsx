@@ -15,6 +15,25 @@ const projects = [
     ],
   },
   {
+    name: "CarKharido",
+    description:
+      "CarKharido is a responsive React app to browse, filter, and explore cars with a sleek UI, designed for an enhanced vehicle shopping experience.",
+    link: "https://carkharido-az6u.onrender.com",
+    features: ["Category Filter & Search", "Responsive Design", "whishlist"],
+  },
+  {
+    name: "ShopKaro",
+    description:
+      "ShopKaro is a responsive React-based shopping website with user login, product browsing, cart managemen. To Login use this credentials - Username: mor_2314 , password: 83r5^_ ",
+    link: "https://shopkaro-mwtn.onrender.com",
+    features: [
+      "User Authentication",
+      "Category Filter & Search",
+      "Cart System with Checkout",
+      "Mobile-First Responsive Design",
+    ],
+  },
+  {
     name: "Wanderlust",
     description:
       "Wanderlust is a full-stack web application designed to help users explore and manage travel destinations.",

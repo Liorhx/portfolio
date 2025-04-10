@@ -7,6 +7,8 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Resume from "../components/Resume";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import Certifications from "../components/Certifications";
 
 const Home = () => {
   const { ref: avatarRef, inView: avatarInView } = useInView({
@@ -55,8 +57,8 @@ const Home = () => {
           >
             <Typewriter
               words={[
-                "Full Stack Developer",
-                "MERN Stack Developer",
+                "Certified Full Stack Developer",
+                "Certified MERN Stack Developer",
                 "Tech Enthusiast",
               ]}
               loop={true}
@@ -84,7 +86,9 @@ const Home = () => {
         <Projects />
         <Skills />
         <Resume />
+        <Certifications />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
