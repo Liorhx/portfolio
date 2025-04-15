@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../assets/Resume.pdf";
+import resumeFile from "../assets/updatedResume.pdf";
 import { useInView } from "react-intersection-observer"; // Intersection Observer
 import { motion } from "framer-motion"; // For animation
 
