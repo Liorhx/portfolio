@@ -4,6 +4,28 @@ import { useInView } from "react-intersection-observer"; // Intersection Observe
 
 const projects = [
   {
+    name: "Moviemaniac",
+    description:
+      "A React app to search and browse movies using live API data.",
+    link: "https://moviemaniac-tpn5.onrender.com",
+    features: [
+      "Upcoming, Toprated, Popular",
+      "Responsive",
+      "Sort by date, star, rating",
+    ],
+  },
+  {
+    name: "QuickTodo",
+    description:
+"A React app to manage tasks with drag-and-drop for easy status updates.",
+    link: "https://todo-sbvw.onrender.com",
+    features: [
+      "Add, edit, and delete tasks",
+      "Filter tasks by status (all, active, completed)",
+      "Drag and drop your status",
+    ],
+  },
+  {
     name: "News-Monk",
     description:
       "NewsMonk is a smart news digest web app that delivers personalized news summaries.",
