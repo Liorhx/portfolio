@@ -10,6 +10,7 @@ const projects = [
     link: "https://moviemaniac-tpn5.onrender.com",
     features: [
       "Upcoming, Toprated, Popular",
+      "Light/Dark mode support.",
       "Responsive",
       "Sort by date, star, rating",
     ],
