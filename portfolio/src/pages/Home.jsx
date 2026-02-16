@@ -22,7 +22,7 @@ const Home = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-300 via-gray-600 to-cyan-300 text-white">
       <Container className="text-center p-6">
         <Box className="flex flex-col items-center">
           <Avatar
@@ -53,7 +53,7 @@ const Home = () => {
           </Typography>
           <Typography
             variant="h5"
-            className="text-xl text-gray-300 mt-2 font-semibold"
+            className="text-xl text-white-300 mt-2 font-semibold"
           >
             <Typewriter
               words={[
@@ -71,7 +71,7 @@ const Home = () => {
           </Typography>
           <Typography
             variant="body1"
-            className="mt-4 text-lg text-gray-400 max-w-2xl"
+            className="mt-4 text-lg text-white-400 max-w-2xl"
           >
             Welcome to my portfolio! I'm a passionate developer with experience
             in building web applications using the MERN stack. Here, you'll find

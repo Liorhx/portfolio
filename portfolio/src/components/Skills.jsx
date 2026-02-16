@@ -11,21 +11,32 @@ import {
   FaBootstrap,
   FaComments,
 } from "react-icons/fa";
+import { SiRedux, SiRedis, SiReactquery } from "react-icons/si";
+
 import { SiMongodb, SiTailwindcss, SiMysql, SiExpress } from "react-icons/si";
 
 const skills = [
-  { name: "React", icon: <FaReact size={50} className="text-blue-400" /> },
-  { name: "Node.js", icon: <FaNodeJs size={50} className="text-green-500" /> },
-  { name: "CSS", icon: <FaCss3Alt size={50} className="text-blue-600" /> },
-  { name: "GitHub", icon: <FaGithub size={50} className="text-gray-400" /> },
-  { name: "HTML", icon: <FaHtml5 size={50} className="text-orange-600" /> },
-  { name: "JavaScript", icon: <FaJs size={50} className="text-yellow-400" /> },
+  { name: "MongoDB", icon: <SiMongodb size={50} className="text-green-500" /> },
   {
     name: "Express.js",
     icon: <SiExpress size={50} className="text-gray-600" />,
   },
+  { name: "React", icon: <FaReact size={50} className="text-blue-400" /> },
+  { name: "Node.js", icon: <FaNodeJs size={50} className="text-green-500" /> },
+  { name: "Redux", icon: <SiRedux size={50} className="text-purple-500" /> },
+  { name: "Redis", icon: <SiRedis size={50} className="text-red-500" /> },
+  {
+    name: "React Query",
+    icon: <SiReactquery size={50} className="text-pink-500" />,
+  },
+  { name: "HTML", icon: <FaHtml5 size={50} className="text-orange-600" /> },
+
+  { name: "CSS", icon: <FaCss3Alt size={50} className="text-blue-600" /> },
+  { name: "JavaScript", icon: <FaJs size={50} className="text-yellow-400" /> },
+
+  { name: "GitHub", icon: <FaGithub size={50} className="text-gray-400" /> },
+
   { name: "MySQL", icon: <SiMysql size={50} className="text-blue-600" /> },
-  { name: "MongoDB", icon: <SiMongodb size={50} className="text-green-500" /> },
   { name: "Bootstrap", icon: <FaBootstrap size={50} className="text-info" /> },
   {
     name: "Tailwind CSS",
@@ -47,7 +58,7 @@ const Skills = () => {
   });
 
   return (
-    <section ref={ref} className="py-12 bg-gray-900 text-white">
+    <section ref={ref} className="py-12 bg-white-900 text-white">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <motion.h2
           className="text-4xl font-bold mb-6"

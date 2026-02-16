@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../assets/updatedResume.pdf";
+import resumeFile from "../assets/itsme.pdf";
 import { useInView } from "react-intersection-observer"; // Intersection Observer
 import { motion } from "framer-motion"; // For animation
 
@@ -19,7 +19,7 @@ const Resume = () => {
   };
 
   return (
-    <section ref={ref} className="py-12 bg-gray-900 text-white text-center">
+    <section ref={ref} className="py-12  text-white text-center">
       <div className="max-w-3xl mx-auto px-6">
         <motion.h2
           className="text-4xl font-bold mb-4"

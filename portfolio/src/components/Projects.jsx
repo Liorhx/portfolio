@@ -4,9 +4,21 @@ import { useInView } from "react-intersection-observer"; // Intersection Observe
 
 const projects = [
   {
-    name: "Moviemaniac",
+    name: "E-Commerce Platform",
     description:
-      "A React app to search and browse movies using live API data.",
+      "CartWish is a full-stack MERN e-commerce app for browsing and purchasing iPhone products.",
+    link: "https://cartwish-1.onrender.com",
+    features: [
+      "Authentication & Authorization",
+      "iPhone Product Catalog with dynamic data",
+      "Infinite Scroll using React Query",
+      "Optimized API data fetching and caching",
+      "Add to Cart functionality",
+    ],
+  },
+  {
+    name: "Moviemaniac",
+    description: "A React app to search and browse movies using live API data.",
     link: "https://moviemaniac-tpn5.onrender.com",
     features: [
       "Upcoming, Toprated, Popular",
@@ -16,9 +28,9 @@ const projects = [
     ],
   },
   {
-    name: "QuickTodo",
+    name: "Task Manager",
     description:
-"A React app to manage tasks with drag-and-drop for easy status updates.",
+      "A React app to manage tasks with drag-and-drop for easy status updates.",
     link: "https://todo-sbvw.onrender.com",
     features: [
       "Add and delete tasks",
@@ -74,7 +86,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="py-12 bg-gray-900 text-white">
+    <section className="bg-white-900 text-white">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
         <div className="grid md:grid-cols-3 gap-6">
@@ -119,7 +131,7 @@ const ProjectCard = ({ project, index }) => {
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-block bg-blue-600 px-4 py-2 rounded-lg shadow-md hover:bg-blue-500 transition"
+        className="mt-4 justify-end bg-green-600 px-4 py-2 rounded-lg shadow-md hover:bg-green-500 transition inline-block text-white font-semibold"
       >
         View Project
       </a>
