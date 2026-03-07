@@ -4,6 +4,19 @@ import { useInView } from "react-intersection-observer"; // Intersection Observe
 
 const projects = [
   {
+    name: "Dental Clinic Website",
+    description:
+      "A professional website developed for a local dental clinic to showcase services, clinic information, and enable patients to easily connect with the dentist.",
+    link: "https://dentist-id6o.onrender.com",
+    features: [
+      "Modern and responsive UI for mobile and desktop",
+      "Service pages for different dental treatments",
+      "Contact form for patient inquiries",
+      "Google Maps integration for clinic location",
+      "Fast loading and SEO-friendly structure",
+    ],
+  },
+  {
     name: "E-Commerce Platform",
     description:
       "CartWish is a full-stack MERN e-commerce app for browsing and purchasing iPhone products.",
@@ -28,16 +41,18 @@ const projects = [
     ],
   },
   {
-    name: "Task Manager",
+    name: "ShopKaro",
     description:
-      "A React app to manage tasks with drag-and-drop for easy status updates.",
-    link: "https://todo-sbvw.onrender.com",
+      "ShopKaro is a responsive React-based shopping website with user login, product browsing, cart managemen. To Login use this credentials - Username: mor_2314 , password: 83r5^_ ",
+    link: "https://shopkaro-mwtn.onrender.com",
     features: [
-      "Add and delete tasks",
-      "Filter tasks by status (all, active, completed)",
-      "Drag and drop your status",
+      "User Authentication",
+      "Category Filter & Search",
+      "Cart System with Checkout",
+      "Mobile-First Responsive Design",
     ],
   },
+
   {
     name: "News-Monk",
     description:
@@ -57,15 +72,14 @@ const projects = [
     features: ["Category Filter & Search", "Responsive Design", "whishlist"],
   },
   {
-    name: "ShopKaro",
+    name: "Task Manager",
     description:
-      "ShopKaro is a responsive React-based shopping website with user login, product browsing, cart managemen. To Login use this credentials - Username: mor_2314 , password: 83r5^_ ",
-    link: "https://shopkaro-mwtn.onrender.com",
+      "A React app to manage tasks with drag-and-drop for easy status updates.",
+    link: "https://todo-sbvw.onrender.com",
     features: [
-      "User Authentication",
-      "Category Filter & Search",
-      "Cart System with Checkout",
-      "Mobile-First Responsive Design",
+      "Add and delete tasks",
+      "Filter tasks by status (all, active, completed)",
+      "Drag and drop your status",
     ],
   },
   {
