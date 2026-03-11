@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import certificateThumb1 from "../assets/myCertificateThumb.jpg";
 import certificateThumb2 from "../assets/React_Certificate.jpg";
+import certificateThumb3 from "../assets/HCL_GUVI_Certification.jpg";
 import certificateFile1 from "../assets/myCertificate.pdf";
 import certificateFile2 from "../assets/React_Certificate.pdf";
+import certificateFile3 from "../assets/HCL_GUVI_Certification.pdf";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
@@ -14,6 +16,7 @@ const Certifications = () => {
 
   const [showViewer, setShowViewer] = useState(false);
   const [showViewer2, setShowViewer2] = useState(false);
+  const [showViewer3, setShowViewer3] = useState(false);
 
   return (
     <section ref={ref} className="py-12  text-white text-center">
@@ -33,9 +36,11 @@ const Certifications = () => {
           animate={{ opacity: inView ? 1 : 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          Here is a snapshot of my MERN Stack Full Stack Developer
-          certification, showcasing hands-on skills and real-world project
-          experience. Click to have a look !!.
+          Here is a snapshot of my certifications, including the MERN Stack Full
+          Stack Developer program and the Build & Deploy Applications with
+          Google AI Studio certification. These showcase my hands-on experience
+          in full-stack development and building AI-powered applications. Click
+          to have a look!!
         </motion.p>
 
         <motion.div
@@ -44,6 +49,12 @@ const Certifications = () => {
           animate={{ opacity: inView ? 1 : 0 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
+          <img
+            src={certificateThumb3}
+            alt="React Certificate"
+            onClick={() => setShowViewer3(true)}
+            className="w-40 md:w-60 cursor-pointer rounded-lg shadow-lg hover:scale-105 transition"
+          />
           <img
             src={certificateThumb2}
             alt="React Certificate"
@@ -58,6 +69,25 @@ const Certifications = () => {
           />
         </motion.div>
 
+        {showViewer3 && (
+          <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 p-4">
+            <div className="bg-white rounded-lg overflow-hidden max-w-4xl w-full relative">
+              <button
+                onClick={() => setShowViewer3(false)}
+                className="absolute cursor-pointer top-2 right-2 text-red-600 text-xl font-bold"
+              >
+                ✕
+              </button>
+              <iframe
+                src={certificateFile3}
+                title="Certificate PDF"
+                className="w-full h-[500px] rounded-b-lg"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        )}
         {showViewer && (
           <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 p-4">
             <div className="bg-white rounded-lg overflow-hidden max-w-4xl w-full relative">
