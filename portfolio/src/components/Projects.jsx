@@ -4,6 +4,19 @@ import { useInView } from "react-intersection-observer"; // Intersection Observe
 
 const projects = [
   {
+    name: "AI Interview Taker",
+    description:
+      "An AI-powered interview practice platform that simulates real technical interviews by generating dynamic questions and analyzing candidate responses.",
+    link: "https://aiinterviewpro-3g8d.onrender.com",
+    features: [
+      "AI-generated interview questions using Gemini AI",
+      "JWT-based authentication with role-based interview sessions",
+      "AI analysis of responses to track performance, progress, and weak areas",
+      "Responsive UI built with React and Tailwind CSS",
+      "Full-stack MERN deployment with Express serving frontend and backend",
+    ],
+  },
+  {
     name: "Dental Clinic Website",
     description:
       "A professional website developed for a local dental clinic to showcase services, clinic information, and enable patients to easily connect with the dentist.",
