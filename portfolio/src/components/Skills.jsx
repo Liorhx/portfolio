@@ -11,11 +11,26 @@ import {
   FaBootstrap,
   FaComments,
 } from "react-icons/fa";
-import { SiRedux, SiRedis, SiReactquery } from "react-icons/si";
-
-import { SiMongodb, SiTailwindcss, SiMysql, SiExpress } from "react-icons/si";
-
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiMysql,
+  SiExpress,
+  SiRedux,
+  SiRedis,
+  SiReactquery,
+  SiDocker,
+  SiNextdotjs,
+} from "react-icons/si";
+import { FaAws } from "react-icons/fa6";
 const skills = [
+  { name: "AWS", icon: <FaAws size={50} className="text-orange-500" /> },
+  { name: "Docker", icon: <SiDocker size={50} className="text-blue-500" /> },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs size={50} className="text-black dark:text-white" />,
+  },
+
   { name: "MongoDB", icon: <SiMongodb size={50} className="text-green-500" /> },
   {
     name: "Express.js",
