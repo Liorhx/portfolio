@@ -4,6 +4,46 @@ import { useInView } from "react-intersection-observer"; // Intersection Observe
 
 const projects = [
   {
+    name: "VentureFlow",
+    description:
+      "VentureFlow is a platform for founders and investors to share ideas and connect.",
+    link: "https://ventureflow-3rya.onrender.com",
+    features: [
+      "Firebase Authentication with role-based access",
+      "Startup idea posting and discovery",
+      "Real-time chat with Socket.io",
+      "Firestore database integration",
+      "Responsive React and Tailwind UI",
+      "Full-stack deployment on Render",
+    ],
+  },
+  {
+    name: "Aviotor",
+    description:
+      "Aviator is a multiplier-based, real-time web app built on the MERN stack and hosted on AWS",
+    link: "http://18.234.23.109:3000",
+    features: [
+      "JWT-based authentication and secure user management",
+      "Interactive dashboard for project and workflow tracking",
+      "Real-time data updates with RESTful APIs",
+      "Responsive UI built with React and Tailwind CSS",
+      "AWS deployment with scalable cloud infrastructure",
+    ],
+  },
+  {
+    name: "InstaCrm",
+    description:
+      "An AI-powered interview practice platform that simulates real technical interviews by generating dynamic questions and analyzing candidate responses.",
+    link: "https://instagram-crm.onrender.com",
+    features: [
+      "Lead, contact, and deal management",
+      "JWT-based authentication with role-based access",
+      "Sales pipeline and customer tracking dashboard",
+      "Responsive UI built with React and Tailwind CSS",
+      "MERN stack architecture with MongoDB integration",
+    ],
+  },
+  {
     name: "AI Interview Taker",
     description:
       "An AI-powered interview practice platform that simulates real technical interviews by generating dynamic questions and analyzing candidate responses.",
